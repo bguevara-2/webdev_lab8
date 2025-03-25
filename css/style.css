@@ -29,6 +29,9 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
   background-color: #000;
 }
 

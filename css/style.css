@@ -37,7 +37,26 @@
 }
 
 #sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: red;
 }
 
 #sidebar-container {
+  height: 100%;
+  width: 20%;
+  list-style-type: none;
+}
+
+#sidebar-container ul {
+  text-align: center;
+  padding: 0;
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar-container ul li{
+  background-color: #000;
 }

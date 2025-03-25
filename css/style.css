@@ -44,17 +44,17 @@
   position: fixed;
   right: 0%;
   background-color: red;
+  height: 100%;
+  width: 20%;
 }
 
 #sidebar-container {
-  height: 100%;
-  width: 20%;
   list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
 #sidebar-container ul {
-  text-align: center;
-  padding: 0;
   display: block;
   padding: 15px 0;
   color: #fff;
@@ -62,5 +62,13 @@
 }
 
 #sidebar-container ul li{
+
+}
+
+#sidebar-container ul li a{
+  
+}
+
+#sidebar-container ul li a:hover{
   background-color: #000;
 }

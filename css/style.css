@@ -48,27 +48,19 @@
   width: 20%;
 }
 
-#sidebar-container {
+#sidebar ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
 }
 
-#sidebar-container ul {
+#sidebar-container ul li a{
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
 }
 
-#sidebar-container ul li{
-
-}
-
-#sidebar-container ul li a{
-  
-}
-
-#sidebar-container ul li a:hover{
+#sidebar ul li a:hover{
   background-color: #000;
 }
